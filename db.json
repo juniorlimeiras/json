@@ -32,7 +32,7 @@
             "nome": "Carla da Paixão Valle",
             "registro": "CRM/AC 234",
             "especialidade": "Dermatologia",
-            "unidade": "Exames Laboratóriais",
+            "unidade": "Exames Laboratoriais",
             "telefone": "(68) 98395-5604",
             "email": "carla.valle@gmail.com"
         },
@@ -179,17 +179,17 @@
         {
             "id": 1,
             "endereco": "Rua Independência, 56 - Conjunto Bela Vista",
-            "nome": "Bela Vista"
+            "nome": "Exames Labotatoriais"
         },
         {
             "id": 2,
             "endereco": "Rua Paulo VI, 100 - Bosque",
-            "nome": "Bosque"
+            "nome": "UTI"
         },
         {
             "id": 3,
             "endereco": "Rua Rui Barbosa, 252 - Centro",
-            "nome": "Cruzeiro do Sul"
+            "nome": "Pronto Atendimento"
         }
     ]
 }
