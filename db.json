@@ -1,47 +1,195 @@
-[
-  {
-    "id": 1,
-    "nome": "Maria Adelia Serravalle Bezerra",
-    "registro": "CRM/AC 377",
-    "especialidade": "Cardiologia",
-    "unidade": "Pronto Atendimento",
-    "telefone": "(68) 98205-4704",
-    "email": "monique.nespoli@uol.com.br"
-  },
-  {
-    "id": 2,
-    "nome": "Elielson Silveira Andrade",
-    "registro": "CRM/AC 455",
-    "especialidade": "Cardiologia",
-    "unidade": "UTI",
-    "telefone": "(68) 98085-4910",
-    "email": "elielson.andrade@gmail.com"
-  },
-  {
-    "id": 3,
-    "nome": "Davi Jesus Mendes",
-    "registro": "CRM/AC 123",
-    "especialidade": "Infectologia",
-    "unidade": "Pronto Atendimento",
-    "telefone": "(68) 98408-5352",
-    "email": "davi.mendes@yahoo.com"
-  },
-  {
-    "id": 4,
-    "nome": "Carla da Paixão Valle",
-    "registro": "CRM/AC 234",
-    "especialidade": "Dermatologia",
-    "unidade": "Exames Laboratóriais",
-    "telefone": "(68) 98395-5604",
-    "email": "carla.valle@gmail.com"
-  },
-  {
-    "id": 5,
-    "nome": "Neuza Biango Nobrega",
-    "registro": "CRM/AC 232",
-    "especialidade": "Pediatria",
-    "unidade": "Pronto Atendimento",
-    "telefone": "(68) 98561-6622",
-    "email": "neuza.nobrega@uol.com.br"
-  }
-]
+{
+    "profissionais": [
+        {
+            "id": 1,
+            "nome": "Maria Adelia Serravalle Bezerra",
+            "registro": "CRM/AC 377",
+            "especialidade": "Cardiologia",
+            "unidade": "Pronto Atendimento",
+            "telefone": "(68) 98205-4704",
+            "email": "monique.nespoli@uol.com.br"
+        },
+        {
+            "id": 2,
+            "nome": "Elielson Silveira Andrade",
+            "registro": "CRM/AC 455",
+            "especialidade": "Cardiologia",
+            "unidade": "Pronto Atendimento",
+            "telefone": "(68) 98085-4910",
+            "email": "elielson.andrade@gmail.com"
+        },
+        {
+            "id": 3,
+            "nome": "Davi Jesus Mendes",
+            "registro": "CRM/AC 123",
+            "especialidade": "Infectologia",
+            "unidade": "UTI",
+            "telefone": "(68) 98408-5352",
+            "email": "davi.mendes@yahoo.com"
+        },
+        {
+            "id": 4,
+            "nome": "Carla da Paixão Valle",
+            "registro": "CRM/AC 234",
+            "especialidade": "Dermatologia",
+            "unidade": "Exames Laboratóriais",
+            "telefone": "(68) 98395-5604",
+            "email": "carla.valle@gmail.com"
+        },
+        {
+            "id": 5,
+            "nome": "Neuza Biango Nobrega",
+            "registro": "CRM/AC 232",
+            "especialidade": "Pediatria",
+            "unidade": "UTI",
+            "telefone": "(68) 98561-6622",
+            "email": "neuza.nobrega@uol.com.br"
+        }
+    ],
+    "convenios": [
+        {
+            "id": 1,
+            "ativo": true,
+            "cnpj": "46.560.030/0001-53",
+            "email": "contato@unimedriobranco.com.br",
+            "nome": "Unimed",
+            "razao_social": "Unimed Rio Branco Cooperativa de Trabalho Médico Ltda.",
+            "representante": "Thayline Figueredo Vaz",
+            "telefone": "(68) 3668-1546"
+        },
+        {
+            "id": 2,
+            "ativo": true,
+            "cnpj": "29.309.127/0001-79",
+            "email": "contato@amil.com.br",
+            "nome": "Amil",
+            "razao_social": "AMIL ASSISTENCIA MEDICA INTERNACIONAL S.A.",
+            "representante": "Davi Faria da Conceição",
+            "telefone": "(11) 3279-3035"
+        },
+        {
+            "id": 3,
+            "ativo": true,
+            "cnpj": "92.693.118/0001-60",
+            "email": "contato@bradescosaude.com.br",
+            "nome": "Bradesco",
+            "razao_social": "BRADESCO SAUDE S.A.",
+            "representante": "Leandra Paes dos Anjos",
+            "telefone": "(21) 2503-0787"
+        }
+    ],
+    "especialidades": [
+        {
+            "id": 1,
+            "nome": "Cardiologia"
+        },
+        {
+            "id": 2,
+            "nome": "Dermatologia"
+        },
+        {
+            "id": 3,
+            "nome": "Geriatria"
+        },
+        {
+            "id": 4,
+            "nome": "Infectologia"
+        },
+        {
+            "id": 5,
+            "nome": "Pediatria"
+        },
+        {
+            "id": 6,
+            "nome": "Psiquiatria"
+        },
+        {
+            "id": 7,
+            "nome": "Urologia"
+        }
+    ],
+    "pacientes": [
+        {
+            "id": 1,
+            "cep": "69903-134",
+            "cidade": "Rio Branco",
+            "data_nascimento": "1945-09-28",
+            "email": "giulia.bencatel@gmail.com",
+            "endereco": "Rua Cedro, 100 - Parque dos Sabiás",
+            "estado": "AC",
+            "grupo_sanguineo": "AB_POSITIVO",
+            "nome": "Giulia Farias Bencatel",
+            "sexo": "F",
+            "telefone": "(68) 98105-2583"
+        },
+        {
+            "id": 2,
+            "cep": "69901-884",
+            "cidade": "Rio Branco",
+            "data_nascimento": "1941-04-22",
+            "email": "wallace.soriano@yahoo.com",
+            "endereco": "Travessa Mossoró, 90 - Vitória",
+            "estado": "AC",
+            "grupo_sanguineo": "B_POSITIVO",
+            "nome": "Wallace Macedo Inácio Soriano",
+            "sexo": "M",
+            "telefone": "(68) 97431-7722"
+        },
+        {
+            "id": 3,
+            "cep": "69909-060",
+            "cidade": "Rio Branco",
+            "data_nascimento": "1997-06-05",
+            "email": "helen.vilar@gmail.com",
+            "endereco": "Rua Adelaide, 50 - Rosa Linda",
+            "estado": "AC",
+            "grupo_sanguineo": "AB_NEGATIVO",
+            "nome": "Helen Dutra Vilar",
+            "sexo": "F",
+            "telefone": "(68) 99752-4954"
+        },
+        {
+            "id": 4,
+            "cep": "69911-262",
+            "cidade": "Rio Branco",
+            "data_nascimento": "2009-03-10",
+            "email": "mario.branco@uol.com.br",
+            "endereco": "Rua Luiz Galvez, 200 - Conjunto Castelo Branco",
+            "estado": "AC",
+            "grupo_sanguineo": "O_POSITIVO",
+            "nome": "Jean Schuenck Amorin",
+            "sexo": "M",
+            "telefone": "(68) 97120-8079"
+        },
+        {
+            "id": 5,
+            "cep": "69980-970",
+            "cidade": "Cruzeiro do Sul",
+            "data_nascimento": "1974-11-14",
+            "email": "lucilene.lucas@gmail.com",
+            "endereco": "Rua Rego Barros, 427 - Centro",
+            "estado": "AC",
+            "grupo_sanguineo": "A_POSITIVO",
+            "nome": "Lucilene Santos Lucas",
+            "sexo": "F",
+            "telefone": "(68) 99384-3354"
+        }
+    ],
+    "unidades": [
+        {
+            "id": 1,
+            "endereco": "Rua Independência, 56 - Conjunto Bela Vista",
+            "nome": "Bela Vista"
+        },
+        {
+            "id": 2,
+            "endereco": "Rua Paulo VI, 100 - Bosque",
+            "nome": "Bosque"
+        },
+        {
+            "id": 3,
+            "endereco": "Rua Rui Barbosa, 252 - Centro",
+            "nome": "Cruzeiro do Sul"
+        }
+    ]
+}
